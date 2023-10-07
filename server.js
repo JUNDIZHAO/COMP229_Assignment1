@@ -1,3 +1,5 @@
+/* * File Name: server.js * Student’s Name: Jundi Zhao * StudentID: 301272703 * Date: 2023/10/7 * Description: Main JavaScript file to manage interactive elements on the personal portfolio website. */
+
 const express = require("express");
 const app = express();
 const forRoutes = require("./routes/routes");
