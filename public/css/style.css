@@ -1,0 +1,48 @@
+body {
+    max-width: 960px;
+    /* 960px/1440px */
+    margin: auto;
+
+    background-color: lightgray;
+}
+
+img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+}
+
+.webpage1 {
+    background-color: white;
+
+    border: 5mm solid white;
+}
+
+
+.navul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: grey;
+}
+
+.navli1 a {
+    display: block;
+
+    color: white;
+    text-align: center;
+    padding: 30px 50px;
+    text-decoration: none;
+}
+
+.navli1 a:hover {
+    background-color: white;
+
+    color: black;
+}
